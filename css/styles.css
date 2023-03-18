@@ -1,4 +1,54 @@
 body
 {
-    background-color: bisque;
+    background-color: #F7EFE5;
+}
+
+.name,.description
+{
+    opacity: 1;
+}
+
+.name
+{
+    margin-bottom:0;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.description
+{
+    margin-top: 0;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+}
+
+.intro
+{
+    background-color: #91bcecbd;
+    /* padding: 50px; */
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+.middle-container,.bottom-container
+{
+    height: 200px;
+    width: 200px;
+}
+
+.middle-container
+{
+    background-color: red;
+}
+
+.bottom-container
+{
+    background-color: blue;
 }
