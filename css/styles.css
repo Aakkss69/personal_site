@@ -1,11 +1,14 @@
 body
 {
     background-color: #F7EFE5;
+    text-align: center;
 }
 
 .name,.description
 {
     opacity: 1;
+    color: black;
+    /* display: inline-block; */
 }
 
 .name
@@ -35,7 +38,10 @@ body
     padding-right: 5%;
 }
 
-
+.span-pro
+{
+    text-decoration: underline;
+}
 
 .middle-container,.bottom-container
 {
@@ -52,3 +58,13 @@ body
 {
     background-color: blue;
 }
+
+.bottom-cloud,.top-cloud
+{
+    position: absolute;
+}
+
+/* .mountain-img
+{
+    position: relative;
+} */
