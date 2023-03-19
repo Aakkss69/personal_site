@@ -133,6 +133,11 @@ h3
     right:0;
 }
 
+.sp-em
+{
+    border-radius:12px;
+}
+
 .profile,.skills,.contact-me
 {
     margin-top: 100px;
