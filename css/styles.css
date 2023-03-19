@@ -4,45 +4,6 @@ body
     text-align: center;
 }
 
-a:link 
-{
-    color: #11999E;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:visited 
-{
-    color: #052b55;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:hover 
-{
-    color: #2779d6;
-    background-color: transparent;
-    text-decoration: underline;
-}
-  
-a:active 
-{
-    color: #11999E;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-hr
-{
-    border-style:dotted none none none;
-    width:125px;
-    height: 50%;
-    border-width: 10px;
-    color: #97a5a5;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 .btn 
 {
     background: #11cdd4;
@@ -71,6 +32,49 @@ hr
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: underline;
 }
+
+
+
+.footer-link:link 
+{
+    color: #11999E;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.footer-link:visited 
+{
+    color: #052b55;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.footer-link:hover 
+{
+    color: #2779d6;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.footer-link:active 
+{
+    color: #11999E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+hr
+{
+    border-style:dotted none none none;
+    width:125px;
+    height: 50%;
+    border-width: 10px;
+    color: #97a5a5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
 
 .name,.description
 {
