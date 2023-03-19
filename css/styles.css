@@ -1,13 +1,91 @@
 body
 {
-    background-color: #F7EFE5;
+    background-color: white;
     text-align: center;
+}
+
+a:link 
+{
+    color: #11999E;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited 
+{
+    color: #052b55;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover 
+{
+    color: #2779d6;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active 
+{
+    color: #11999E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+hr
+{
+    border-style:dotted none none none;
+    width:125px;
+    height: 50%;
+    border-width: 10px;
+    color: #97a5a5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn 
+{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover 
+{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: underline;
 }
 
 .name,.description
 {
     opacity: 1;
-    color: black;
+    color: #0f4c92;
+}
+
+h2
+{
+    color: #0f4c92;
+}
+
+h3
+{
+    color: #3178c9;
 }
 
 .name
@@ -16,7 +94,7 @@ body
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-family: 'Satisfy', cursive;
-    font-size: 90px;
+    font-size: 5.625rem;
 
 }
 
@@ -25,12 +103,13 @@ body
     margin-top: 0;
     padding-top: 1.25%;
     padding-bottom: 1.25%;
-    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: normal;
 }
 
 .top-container
 {
-    background-color: #91bcecbd;
+    background-color: #EAF6F6;
     padding: 50px;
     height: 50%;
     text-align: center;
@@ -40,9 +119,32 @@ body
     font-family: 'Chakra Petch', sans-serif;
 }
 
-.span-pro
+.bottom-container
 {
-    text-decoration: underline;
+    background-color: #66BFBF;
+    padding: 50px;
+    color: #EAF6F6;
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.profile,.skills,.contact-me
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 80px auto 100px;
+    line-height: 2;
+}
+
+.footer-link
+{
+    padding: 0 10px 0 10px;
 }
 
 .bottom-cloud,.top-cloud
@@ -68,16 +170,22 @@ body
     height: auto;
 }
 
-.jet-image
+.jet-image,.pc-image
 {
-    max-width: 15%;
+    width: 25%;
     height: auto;
 }
 
 .pc-image
 {
-    max-width: 10%;
-    height: auto;
+    float: left;
+    margin-left: 30px;
+}
+
+.jet-image
+{
+    float: right;
+    margin-right: 30px;
 }
 
 .mountain-img
