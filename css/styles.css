@@ -17,7 +17,6 @@ body
     padding-bottom: 2.5%;
     font-family: 'Satisfy', cursive;
     font-size: 90px;
-    min-width: 1000px;
 
 }
 
@@ -27,7 +26,6 @@ body
     padding-top: 1.25%;
     padding-bottom: 1.25%;
     font-size: 30px;
-    min-width: 400px;
 }
 
 .top-container
@@ -84,6 +82,5 @@ body
 
 .mountain-img
 {
-    max-width: -moz-fit-content;
-    max-width: fit-content;
+    width: 100%;
 }
